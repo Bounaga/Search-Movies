@@ -15,7 +15,7 @@ function App() {
   // Api
   useEffect(() => {
     const getMovies = async () => {
-        const API_key = `http://www.omdbapi.com/?s=${searchValue}&apikey=5c93365f`;
+        const API_key = `https://www.omdbapi.com/?s=${searchValue}&apikey=5c93365f`;
         const response = await fetch(API_key);
         const data = await response.json();
         // this if statement is really magical , use it when you wanna search
