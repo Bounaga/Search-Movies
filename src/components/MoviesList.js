@@ -16,11 +16,12 @@ const MoviesList = ({movies, icon, handleClick, expression}) => {
                             <p> Year : {movie.Year} </p> 
                             <p> Type : {movie.Type} </p>
                         </div>
-                        <img    src={movie.Poster} 
-                                alt='movie poster'
-                                className='poster'>
-
-                        </img>
+                        <div className='poster-wrap'>
+                            <img    src={movie.Poster} 
+                                    alt='movie poster'
+                                    className='poster'>
+                            </img>
+                        </div>
                 </div>
                 <div className='add-remove-wrap' onClick={() => handleClick(movie)}>
                             <p className='expression'> 

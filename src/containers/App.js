@@ -100,7 +100,7 @@ function App() {
                 movies = {favoriteMovies} 
                 setFavoritemovies={setFavoritemovies} 
                 icon='fa fa-remove' 
-                expression='remove'
+                expression='Remove'
                 handleClick ={handleRemove} 
                 />
           </div>
