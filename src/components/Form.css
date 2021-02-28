@@ -1,0 +1,23 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+  }
+.input-name
+{
+    min-height: 35px;
+    border-radius: 10rem;
+    border: none;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+@media screen and (min-width:800px)
+{
+  .input-name
+  {
+      width: 30%;
+      margin-bottom: 3vh;
+  }
+}

@@ -1,0 +1,56 @@
+.poster{
+    width: 100%;
+    text-align: center;
+}
+.container{
+    margin-right: 50px;
+}
+.movies{
+    width: 290px;
+    height: 100%;
+}
+.title{
+    text-align: center;
+}
+.infos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-remove-wrap
+{
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-remove-wrap:hover{
+    color: blueviolet;
+    transition: 2s;
+}
+.fa-heart{
+    color: red;
+    margin-left: 5px;
+}
+.fa-remove{
+    margin-left: 5px;
+}
+
+@media screen and (min-width:800px)
+{
+    .movies{
+        width: 240px;
+    }
+    .poster{
+        width: 90%;
+    }
+    .add-remove-wrap
+    {
+        width: 90%;
+    }
+}

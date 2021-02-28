@@ -1,0 +1,10 @@
+.wrap-movies{
+  /* border: solid red; */
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 35px;
+}
+.myfavorites-Title{
+  margin-left: 20px;
+}
