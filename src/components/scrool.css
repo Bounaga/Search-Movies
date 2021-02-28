@@ -1,0 +1,9 @@
+.scrool
+{
+overflow-x : scroll;
+border : none;
+height : 75vh; 
+display:flex;
+align-items: center;
+/* border: red solid; */
+}

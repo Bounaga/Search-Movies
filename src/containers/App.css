@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  padding-left: 35px;
+  /* padding-left: 10px; */
 }
 .myfavorites-Title{
   margin-left: 20px;

@@ -18,7 +18,7 @@ const Form = ({setSearchValue}) => {
                 <input 
                         onChange={handleInput}
                         className='input-name'
-                        placeholder='Search for a movies'>
+                        placeholder='Search for a movie'>
                 </input>
                 {/* <button className='button'> Search</button> */}
             </form>
