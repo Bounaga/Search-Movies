@@ -86,14 +86,14 @@ function App() {
                 movies = {movies} 
                 setFavoritemovies={setFavoritemovies} 
                 icon='fa fa-heart' 
-                expression='Add to favorite'
+                expression='Add to watch list'
                 handleClick ={handleAddTofavorite} 
               />
           </div>
         </Scrool>
 
 
-        <h1 className='myfavorites-Title'>My Favorites</h1>
+        <h1 className='myfavorites-Title'>My Watch List</h1>
         <Scrool>
           <div className='wrap-movies'>
             <MoviesList  

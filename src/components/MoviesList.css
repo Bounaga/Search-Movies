@@ -53,14 +53,16 @@
 
 @media screen and (min-width:800px)
 {
-    .movies{
-        width: 240px;
+    .add-remove-wrap
+    {
+      
+      margin-bottom: 30px;
     }
     .poster{
-        width: 90%;
+        width: 60%;
     }
     .add-remove-wrap
     {
-        width: 90%;
+        width: 100%;
     }
 }

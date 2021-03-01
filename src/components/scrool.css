@@ -1,9 +1,31 @@
-.scrool
+/* .scrool
 {
 overflow-x : scroll;
 border : none;
 height : 85vh; 
 display:flex;
 align-items: center;
-/* border: red solid; */
+} */
+@media screen and (max-width:800px)
+{
+    .scrool
+    {
+    overflow-x : scroll;
+    border : none;
+    height : 85vh; 
+    display:flex;
+    align-items: center;
+    }
+}
+
+@media screen and (min-width:800px)
+{
+    .scrool
+    {
+   
+    /* display:flex; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* border: red solid; */
+    }
 }
