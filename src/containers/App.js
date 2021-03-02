@@ -7,9 +7,7 @@ import Scrool from '../components/scrool';
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState('stranger');
-  // duplicate two to solve the problem of the first clicked movie not showen up
   const [favoriteMovies, setFavoritemovies] = useState([]);
-  const [favorite, setFavorite] = useState([]);
 
 
   // Api
@@ -40,7 +38,6 @@ function App() {
 		);
 
 		if (movieFavourites) {
-			setFavorite(movieFavourites);
       setFavoritemovies(movieFavourites);
 		}
 	}, []);
@@ -55,9 +52,9 @@ function App() {
       }
       else
       {
-        const newFavouritList = [...favorite, clickedMovie];
-        setFavorite(newFavouritList);
+        const newFavouritList = [...favoriteMovies, clickedMovie];
         setFavoritemovies(newFavouritList);
+
         saveToLocalStorage(newFavouritList);
       }
   }
@@ -67,7 +64,6 @@ function App() {
   const handleRemove = (clickedMovie) => {
 
     const FiltredAfterRemove = favoriteMovies.filter(movie => movie.imdbID !== clickedMovie.imdbID)
-    setFavorite(FiltredAfterRemove);
     setFavoritemovies(FiltredAfterRemove);
 
     saveToLocalStorage(FiltredAfterRemove);
